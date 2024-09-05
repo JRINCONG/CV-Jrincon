@@ -1,0 +1,56 @@
+.Container_contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px
+}
+
+.Container_form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+ 
+    height: 400px;
+}
+.contact{
+    display: flex;
+    background-color: rgb(199, 197, 197);
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.info_input{
+    display: flex;
+    gap:10px;
+    width: 58%;
+     justify-content: space-between;
+}
+.info_input input{
+    display: flex;
+    border: 1px solid;
+    border-radius: 6px;
+}
+.text_tarea{
+    display: flex;
+    border: 1px solid;
+    width: 200px;
+    gap:10px;
+}
+.boton{
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 60px;
+    justify-content: center;
+}

@@ -12,6 +12,7 @@
 .container_items{
     display: flex;
     flex-wrap: wrap;
+    gap:100px;
     
 }
 .imagen_abaut{
@@ -27,7 +28,7 @@
 }
 
 .texto_abaut{
-    width: 600px;
+    width: 500px;
   
     display: flex;
     align-items: center;

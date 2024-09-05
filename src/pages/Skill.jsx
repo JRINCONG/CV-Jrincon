@@ -5,12 +5,12 @@ export const Skill = () => {
   return (
     <div className='container-skill'>
   
-        <h1>// Mis Habilidades</h1>
+        <h1><b>//</b> Mis Habilidades</h1>
       
       
 
      <div className='logos'>
-      <div>
+      <div className="md:transition-all">
         <img src='../img/React.webp'/>
       </div>
       <div>
@@ -19,7 +19,7 @@ export const Skill = () => {
       <div>
         <img src='../img/tailwindcss.webp'/>
       </div>
-      <div>
+      <div className="shadow-2xl">
         <img src='../img/javascript.png'/>
       </div>
       <div>
@@ -28,12 +28,13 @@ export const Skill = () => {
       </div>
       <div className='habilidades'>
         <ul>
-            <li>Trabajo en Equipo</li>
-            <li>sdaSDdsasdas</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          
+            <li><box-icon name='check-double'></box-icon>Trabajo en Equipo</li>
+            <li><box-icon name='check-double'></box-icon>Comunicación clara</li>
+            <li><box-icon name='check-double'></box-icon>ResponsResponsabilidad</li>
+            <li><box-icon name='check-double'></box-icon>ReResolución de problemas</li>
+            <li><box-icon name='check-double'></box-icon>AdAdaptación al cambio</li>
+            <li><box-icon name='check-double'></box-icon>Gestión del tiempo</li>
         </ul>
       </div>
       </div>

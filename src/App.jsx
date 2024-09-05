@@ -1,6 +1,9 @@
 import { Abaut } from "./pages/Abaut"
+import { Contact } from "./pages/Contact"
+import { Footer } from "./pages/footer"
 import { Hero } from "./pages/Hero"
 import {Menu} from "./pages/Menu"
+import { Proyect } from "./pages/Proyect"
 import { Skill } from "./pages/Skill"
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
      <Hero/>
      <Abaut/>
      <Skill/>
+     <Proyect/>
+     <Contact/>
+     <Footer/>
       </div>
       
     </>
