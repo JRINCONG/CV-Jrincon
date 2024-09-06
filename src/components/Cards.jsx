@@ -1,4 +1,5 @@
 import React from 'react'
+import {v4} from 'uuid';
 
 export const Cards = ({Card, array}) => {
 
@@ -22,7 +23,7 @@ export const Cards = ({Card, array}) => {
        <ul className='Container_lenguaje'>
         {
             array.map((item)=>(
-                <li className='container_items'>{item}</li>
+                <li key={v4()} className='container_items'>{item}</li>
             ))
         }
        
