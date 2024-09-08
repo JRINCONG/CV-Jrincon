@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+   
 }
 h1{
     display: flex;
@@ -11,29 +12,34 @@ h1{
 
 .Container_form{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    margin-top: 20px;
+ margin-bottom: 20px;
  
-    height: 400px;
+    
 }
 .contact{
     display: flex;
-    background-color: rgb(199, 197, 197);
+    background-color: rgb(193, 193, 193);
     flex-direction: column;
     height: 100%;
-    width: 500px;
+    width: 100%;
     gap:20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    padding: 15px;
     
+}
+.info_contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .info_input{
     display: flex;
     gap:10px;
-    width: 58%;
+    width: 100%;
      justify-content: space-between;
 }
 .info_input input{

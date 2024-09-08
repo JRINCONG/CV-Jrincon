@@ -46,10 +46,10 @@ export const Contact = () => {
   return (
     <>
     <h1><b>//</b> Contacto</h1>
-    <div className='Container_contacto'>
+    <div className='Container_contacto shadow-2xl'>
 
 
-    <div>
+    <div className='info_contacto'>
       <h2>JAIRO RINCÓN GUTIÉRREZ</h2>
       <p>Cel: +57- 3126346336</p>
       <p>rincon303@hotmail.com</p>
@@ -57,7 +57,7 @@ export const Contact = () => {
       
     </div>
     <div className='Container_form'>      
-      <form className='contact' onSubmit={handleSubmit(Submit)}>
+      <form className='contact shadow-2xl' onSubmit={handleSubmit(Submit)}>
         <div className='info_input'>
         <label htmlFor="Nombre">Nombre:</label>
         <input {...register('Nombre')} type='text' placeholder='Nombre' name='Nombre'/>

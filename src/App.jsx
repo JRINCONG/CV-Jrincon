@@ -5,13 +5,14 @@ import { Hero } from "./pages/Hero"
 import {Menu} from "./pages/Menu"
 import { Proyect } from "./pages/Proyect"
 import { Skill } from "./pages/Skill"
+import './styles/App.css'
 
 function App() {
   
 
   return (
-    <>
-      <div className="sm:container mx-auto px-20">
+ 
+      <div className="container">
         <Menu/>
      <Hero/>
      <Abaut/>
@@ -21,7 +22,7 @@ function App() {
      <Footer/>
       </div>
       
-    </>
+   
   )
 }
 

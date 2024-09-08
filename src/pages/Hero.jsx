@@ -7,7 +7,7 @@ export const Hero = () => {
     <figure>
       <div className='Container_foto'>
 
-      <h1 className='font-serif text-5xl font-bold'>JAIRO RINCON G<b>.</b></h1>
+      <h1 className='Hero_Name font-serif text-5xl font-bold'>JAIRO RINCON G</h1>
       </div>
       <p className="hero__description">
             <span className="typing">

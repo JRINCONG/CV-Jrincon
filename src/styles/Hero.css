@@ -20,3 +20,9 @@ b{
     font-size: 30px;
     
 }
+@media(max-768px){
+    .Container_foto{
+        display: flex;
+        font-size: 15px;
+    }
+}
