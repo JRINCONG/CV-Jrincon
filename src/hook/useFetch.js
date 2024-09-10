@@ -4,7 +4,7 @@ import { useState } from "react";
 export const useFetch = ()=>{
 const [Envio, setEnvio]=useState()
 
-const ruta ='http://localhost:8080/api/v1/contact'
+const ruta ='https://send-yxvp.onrender.com/contact'
 
  const getEnviar = (data)=>{
     

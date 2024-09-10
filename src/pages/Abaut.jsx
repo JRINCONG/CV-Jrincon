@@ -5,7 +5,7 @@ export const Abaut = () => {
   return (
     <div className='Container_Abaut'>
         <div className='text_title'>
-        <h1><b>//</b> Abaut</h1>
+        <h1><b>//</b> Sobre mí</h1>
         </div>
         <div className='container_items'>
 

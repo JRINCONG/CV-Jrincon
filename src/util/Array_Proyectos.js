@@ -30,7 +30,7 @@ export const Proyectos =[
         img:'../../img/Proyectos/weatherapp.png',
         Tipo:'Conexion a una Api',
         Lenguajes:['JavaScript','React','Html','Css']
-    }
+    },
 
 ]
 
